@@ -8,11 +8,7 @@ const Home = () => {
       <h1>hello dashboard</h1>
       <h1>skhfdkjh</h1>
       <h1>hello dashboard</h1>
-      <h1>skhfdkjh</h1>
-      <h1>hello dashboard</h1>
-      <h1>skhfdkjh</h1>
-      <h1>hello dashboard</h1>
-      <h1>skhfdkjh</h1>
+      
     </div>
   )
 }
