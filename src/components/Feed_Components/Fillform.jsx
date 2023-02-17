@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Feed_Component_Css/form.css";
+import "./form.css";
 import { Formik, Form, useField } from "formik";
 import * as Yup from "yup";
 import Onclick from "./onclick";    
