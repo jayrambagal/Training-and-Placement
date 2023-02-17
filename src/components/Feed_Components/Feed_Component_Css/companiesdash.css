@@ -1,0 +1,39 @@
+.comp-cont{
+    width: 100%;
+    height: 80vh;
+    /* background-color: rgb(198, 185, 185); */
+    overflow: auto;  
+    margin-top: 2rem;
+
+}
+
+.companies-main-card{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    box-shadow: #252525 1px 1px 6px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+.companies-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.companies-card-row{
+    font-size: 16px;
+}
+
+.companies-main-card .companies-card-row button{
+    position: absolute;
+    bottom: 20px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+}
+

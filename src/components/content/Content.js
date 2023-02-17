@@ -7,6 +7,7 @@ import { Route,Routes } from "react-router-dom";
 import Home from "../Feed_Components/Home";
 
 import Fillform from "../Feed_Components/Fillform";
+import CompaniesDash from "../Feed_Components/CompaniesDash";
 import "./content.css"
 
 const Content = (props) => {
@@ -22,7 +23,7 @@ const Content = (props) => {
         <Routes>
         <Route path="/about" ></Route>
         <Route path="/" element={<Home/>}/>
-        <Route path="/companiesdash"  />
+        <Route path="/companiesdash" element={<CompaniesDash/>} />
         <Route path="/contact"  />
         <Route path="/faq"  />
         <Route path="/form" element={<Fillform/>} />
