@@ -5,10 +5,12 @@ import NavBar from "./Navbar";
 import { Route,Routes } from "react-router-dom";
 
 import Home from "../Feed_Components/Home";
+import Login from "../Feed_Components/Login";
 
 import Fillform from "../Feed_Components/Fillform";
 import CompaniesDash from "../Feed_Components/CompaniesDash";
 import "./content.css"
+import Applications from "../Feed_Components/Applications"
 
 const Content = (props) => {
   return (
@@ -29,6 +31,7 @@ const Content = (props) => {
         <Route path="/form" element={<Fillform/>} />
         <Route path="/protfolio"  />
         <Route path="/tpo"  />
+        <Route path="/applications" element={<Applications/>}/>
         </Routes>
         
       </Container>
